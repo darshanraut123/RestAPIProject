@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.Apitests">
+      <class name="stepdefinations.Apitests">
         <methods>
-          <include name="addUser"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- Test.Apitests -->
+      </class> <!-- stepdefinations.Apitests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

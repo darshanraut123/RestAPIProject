@@ -3,8 +3,14 @@ package Resources;
 public class AddedUserResponse {
 	private String name;
 	private String job;
-	private int id;
+	private String id;
 	private String createdAt;
+	
+	
+	@Override
+	public String toString() {
+		return "AddedUserResponse [name=" + name + ", job=" + job + ", id=" + id + ", createdAt=" + createdAt + "]";
+	}
 	public String getName() {
 		return name;
 	}
@@ -17,10 +23,10 @@ public class AddedUserResponse {
 	public void setJob(String job) {
 		this.job = job;
 	}
-	public int getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getCreatedAt() {

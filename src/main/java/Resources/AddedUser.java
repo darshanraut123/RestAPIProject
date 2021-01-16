@@ -6,6 +6,7 @@ public class AddedUser {
 	private String job;
 	private String id;
 	private String createdAt;
+	private String updatedAt;
 	@Override
 	public String toString() {
 		return "AddedUser [name=" + name + ", job=" + job + ", id=" + id + ", createdAt=" + createdAt + "]";
@@ -44,6 +45,12 @@ public class AddedUser {
 	public AddedUser() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	public String getUpdatedAt() {
+		return updatedAt;
+	}
+	public void setUpdatedAt(String updatedAt) {
+		this.updatedAt = updatedAt;
 	}
 	
 	
