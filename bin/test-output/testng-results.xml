@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-17T01:14:05 IST" name="Default suite" finished-at="2021-01-17T01:14:07 IST" duration-ms="2320">
+    <groups>
+    </groups>
+    <test started-at="2021-01-17T01:14:05 IST" name="Default test" finished-at="2021-01-17T01:14:07 IST" duration-ms="2320">
+      <class name="stepdefinations.Apitests">
+        <test-method signature="createUser()[pri:0, instance:stepdefinations.Apitests@2177849e]" started-at="2021-01-17T01:14:05 IST" name="createUser" finished-at="2021-01-17T01:14:07 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- stepdefinations.Apitests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
